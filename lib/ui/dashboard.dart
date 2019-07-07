@@ -17,7 +17,7 @@ class _DashboardState extends State<Dashboard> {
       ),
       body: new Container(
         padding: EdgeInsets.all(20),
-        color: Color.fromRGBO(223,241,255, 1),
+        color: Color.fromRGBO(250,250,250, 1),
         child: GridView.count(
           crossAxisCount: 2,
           children: <Widget>[
@@ -38,7 +38,7 @@ class _DashboardState extends State<Dashboard> {
     return new Card(
       margin: EdgeInsets.all(10),
       child: Container(
-        color: Color.fromRGBO(155,174,188,1),
+        color: Color.fromRGBO(224,235,244, 1),
         child: InkWell(
           onTap: () {},
           child: new Column(
